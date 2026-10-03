@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font-family:'Noto Sans Thai',system-ui,sans-serif;background:#f6f7f9;color:#222}
+.wrap{max-width:960px;margin:0 auto;padding:16px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+input,select,textarea,button{font:inherit;padding:10px 12px;border:1px solid #d1d5db;border-radius:8px;width:100%;margin:4px 0 10px}
+button{background:#1f2937;color:#fff;border:0;cursor:pointer;width:auto}button.ghost{background:#fff;color:#222;border:1px solid #d1d5db}
+button.on{background:#1f2937;color:#fff}.row{display:flex;gap:8px;flex-wrap:wrap}.row button{margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;background:#eee}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}h1,h3{margin:0}small{color:#6b7280}.err{color:#b91c1c}
